@@ -2,7 +2,7 @@ package Q4.src.main.java;
 
 /**
  * Simple Calculator class
- * TDD: Iteration 1 - Basic implementation (tests should pass)
+ * TDD: Q4b - Basic implementation until tests pass
  */
 public class Calculator {
     
