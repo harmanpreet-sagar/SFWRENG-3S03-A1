@@ -47,8 +47,8 @@ mvn test
 
 ### Iteration 1 - Q4a - Basic Functionality
 
-- ✓ Test 1: `testDividePositiveNumbers()` - Division of positive integers (10 / 2 = 5)
-- ✓ Test 2: `testDivideByZero()` - Exception handling for division by zero
+- Test 1: `testDividePositiveNumbers()` - Division of positive integers (10 / 2 = 5)
+- Test 2: `testDivideByZero()` - Exception handling for division by zero
 
 ## Test Results
 
