@@ -31,12 +31,6 @@ SFWRENG-3S03-A1/
 │   │   ├── main/java/   # Q4 production code
 │   │   └── test/java/   # Q4 test code
 │   └── README.md        # Q4 documentation
-├── Q5/                  # Question 5: Test Coverage and AI
-│   ├── pom.xml          # Q5 Maven configuration
-│   ├── src/
-│   │   ├── main/java/   # Q5 production code
-│   │   └── test/java/   # Q5 test code
-│   └── README.md        # Q5 documentation
 └── README.md            # This file
 ```
 
