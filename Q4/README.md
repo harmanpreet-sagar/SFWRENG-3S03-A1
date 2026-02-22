@@ -2,7 +2,10 @@
 
 ## Overview
 
-This directory contains the solution for Question 4 - implementing a `divide()` method using TDD principles with at least two iterations and two unit tests per iteration.
+This directory contains the solution for Question 4 - implementing a `divide()`
+method using TDD principles with two iterations. The first iteration included
+developing the basic unit tests. The second iteration included developing the
+`Calculator` class that supports those unit tests.
 
 ## Project Structure
 
@@ -53,14 +56,3 @@ mvn test
 Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
 BUILD SUCCESS
 ```
-
-## Independence
-
-This question is completely independent from Q5. Each question has its own:
-
-- Maven configuration (`pom.xml`)
-- Source directory (`src/`)
-- Dependencies
-- Build lifecycle
-
-You can work on Q4 and Q5 simultaneously without any conflicts.
