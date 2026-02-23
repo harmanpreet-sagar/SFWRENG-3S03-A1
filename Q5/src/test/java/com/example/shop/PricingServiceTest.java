@@ -46,4 +46,22 @@ public class PricingServiceTest {
     public void testCalculateTaxPositiveSubtotal() {
         assertEquals(20.00, pricingService.calculateTax(100.00), 0.0001);
     }
+
+    /**
+     * @author Jinwoo Hong
+     * Test 4: Tax on zero subtotal should be zero.
+     */
+    @Test
+    public void testCalculateTaxZeroSubtotal() {
+        assertEquals(0.00, pricingService.calculateTax(0.00), 0.0001);
+    }
+
+    /**
+     * @author Jinwoo Hong
+     * Test 5: Negative subtotal should throw.
+     */
+    @Test(expected = IllegalArgumentException.class)
+    public void testCalculateTaxNegativeSubtotalThrows() {
+        pricingService.calculateTax(-1.00);
+    }
 }

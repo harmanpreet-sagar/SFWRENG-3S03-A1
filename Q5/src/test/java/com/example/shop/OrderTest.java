@@ -44,4 +44,14 @@ public class OrderTest {
         order.addItem(new OrderItem("Widget", 1, 10.00));
         assertEquals(1, order.getItems().size());
     }
+
+    /**
+     * @author Jinwoo Hong
+     * Test 4: Adding an item after processing should throw.
+     */
+    @Test(expected = IllegalStateException.class)
+    public void testAddItemAfterOrderProcessedThrows() {
+        order.setStatus(OrderStatus.PAID);
+        order.addItem(new OrderItem("Widget", 1, 10.00));
+    }
 }

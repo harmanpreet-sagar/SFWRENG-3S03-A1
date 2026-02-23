@@ -38,4 +38,13 @@ public class OrderItemTest {
         OrderItem item = new OrderItem("Widget", 5, 10.00);
         assertEquals(5, item.getQuantity());
     }
+
+    /**
+     * @author Jinwoo Hong
+     * Test 4: Negative unit price should throw IllegalArgumentException
+     */
+    @Test(expected = IllegalArgumentException.class)
+    public void testNegativeUnitPriceThrows() {
+        new OrderItem("Widget", 1, -0.01);
+    }
 }
