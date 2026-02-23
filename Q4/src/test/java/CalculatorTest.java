@@ -1,7 +1,3 @@
-package Q4.src.test.java;
-
-import Q4.src.main.java.Calculator;
-
 import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;
